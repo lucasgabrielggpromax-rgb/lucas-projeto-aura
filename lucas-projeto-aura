@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu blog tech</title>
+
+    <style>
+        body {
+            font-family: Georgia, "Times New Roman", serif;
+            color: #193a5c;
+            background-color: white;
+            margin: 0;
+            padding: 10px 28px;
+        }
+
+        .pagina {
+            border: 1px solid #bbb;
+            border-radius: 6px;
+            padding: 9px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        header {
+            background-color: #1b3d60;
+            color: white;
+            text-align: center;
+            padding: 30px 15px 24px;
+        }
+
+        header h1 {
+            font-size: 28px;
+            margin: 0 0 14px;
+        }
+
+        header p {
+            font-size: 14px;
+            margin: 0;
+        }
+
+        main {
+            padding: 18px 14px 30px;
+        }
+
+        .icone {
+            font-size: 38px;
+            margin-bottom: 20px;
+        }
+
+        article h2 {
+            font-size: 21px;
+            margin-bottom: 16px;
+        }
+
+        article p {
+            font-size: 14px;
+            line-height: 1.4;
+        }
+
+        @media (max-width: 600px) {
+            body {
+                padding: 8px;
+            }
+
+            header h1 {
+                font-size: 24px;
+            }
+
+            main {
+                padding: 18px 8px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="pagina">
+
+        <header>
+            <h1>Meu blog tech</h1>
+            <p>Vou compartilhar conhecimentos sobre tecnologia e programação</p>
+        </header>
+
+        <main>
+            <div class="icone">📚</div>
+
+            <article>
+                <h2>Meu primeiro post</h2>
+
+                <p>Por: Lucas G.</p>
+
+                <p>
+                    Boas-vindas ao meu novo blog!
+                    Aqui vou compartilhar dicas de programação
+                    e curiosidades da área de tecnologia.
+                </p>
+            </article>
+        </main>
+
+    </div>
+</body>
+</html>
+
+
+
+
+
+
